@@ -1,0 +1,6 @@
+codeship_nginx_example:
+  build:
+    image: ubuntu:18.04
+    dockerfile: Dockerfile
+  environment:
+    EXAMPLE_ENV_VAR: example-var
