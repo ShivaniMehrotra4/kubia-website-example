@@ -1,5 +1,5 @@
 - name: codeship_nginx_example
   service: codeship_nginx_example
-  command: service nginx start
+  command: start.sh
   on_fail:
     - command: echo "Failure"
